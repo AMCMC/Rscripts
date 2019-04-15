@@ -115,7 +115,8 @@ taxa_facet_barplot_asv <-
     }
     if (exists("Group")) {
       new_x$Group <-
-        as.factor(as.character(get(Group, unclass(ps@sam_data[, Group]))))
+        get(Group, unclass(ps@sam_data[, Group]))
+        #as.factor(as.character(get(Group, unclass(ps@sam_data[, Group]))))
     } else {
       print("Error: No Group specified")
     }
