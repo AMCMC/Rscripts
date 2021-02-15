@@ -48,6 +48,7 @@ cran <- c("BiocManager",
           "tidyr",
           "tidyverse",
           "clusterSim",
+          "reticulate",
           NULL)
 
 install.packages(cran[!cran %in% installed.packages()])
