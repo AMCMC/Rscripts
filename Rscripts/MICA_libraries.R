@@ -73,3 +73,10 @@ devtools::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 remotes::install_github("jfq3/ggordiplots")
 remotes::install_github("gavinsimpson/ggvegan")
 devtools::install_github("gmteunisse/Fantaxtic")
+
+# failed to install cran:
+cran[!cran %in% installed.packages()]
+
+# failed to install bioc
+bioc.[!bioc. %in% installed.packages()]
+
