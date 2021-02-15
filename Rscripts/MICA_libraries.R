@@ -75,7 +75,7 @@ remotes::install_github("gavinsimpson/ggvegan")
 devtools::install_github("gmteunisse/Fantaxtic")
 
 # failed to install cran:
-cran[!cran %in% installed.packages()]
+print(cran[!cran %in% installed.packages()])
 
 # failed to install bioc
-bioc.[!bioc. %in% installed.packages()]
+print(bioc.[!bioc. %in% installed.packages()])
